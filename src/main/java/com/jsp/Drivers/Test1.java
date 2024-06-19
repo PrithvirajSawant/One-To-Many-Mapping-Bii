@@ -37,14 +37,14 @@ public class Test1 {
 		list.add(acc3);
 		
 		Person_Ab p = new Person_Ab();
-		p.setName("Rahul");
+		p.setName("Raj");
 		p.setLoc("Bangalore");
 		p.setAge(22);
 		
 		p.setAccounts(list);
 		acc.setPersons(p);
 		acc2.setPersons(p);
-		acc3.setPersons(p);
+//		acc3.setPersons(p);
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("simha");
 		EntityManager em = emf.createEntityManager();
